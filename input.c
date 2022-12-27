@@ -39,7 +39,7 @@ int main() {
     scanf("%d", &f.seeds);
     break;
     default:
-    printf("\nInvalid!\n");
+    printf("\nInvalid !\n");
     }
     total = (f.fertilizers * 500)+(f.pesticides * 250)+(f.irrigation_tools * 10000)+(f.machinery * 20000)+(f.seeds * 4000);
     printf("Total sum: %d", total);
